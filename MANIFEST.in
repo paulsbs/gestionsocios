@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gestionsocios *.css
+recursive-include gestionsocios *.csv
+recursive-include gestionsocios *.html
+recursive-include gestionsocios *.ico
+recursive-include gestionsocios *.js
+recursive-include gestionsocios *.json
+recursive-include gestionsocios *.md
+recursive-include gestionsocios *.png
+recursive-include gestionsocios *.py
+recursive-include gestionsocios *.svg
+recursive-include gestionsocios *.txt
+recursive-exclude gestionsocios *.pyc
