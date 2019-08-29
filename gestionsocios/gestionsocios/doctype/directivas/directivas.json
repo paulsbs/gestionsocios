@@ -1,0 +1,131 @@
+{
+ "creation": "2019-08-28 12:31:40.721377",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "detalle",
+  "presidente",
+  "visepresidente",
+  "secretario",
+  "tesorero",
+  "vocales_section",
+  "vocguar",
+  "sup1",
+  "vocal_2_section",
+  "vocdep",
+  "sup2",
+  "vocal_3_section",
+  "vocas",
+  "sup3"
+ ],
+ "fields": [
+  {
+   "fieldname": "presidente",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Presidente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visepresidente",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visepresidente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "secretario",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Secretario",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tesorero",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tesorero",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vocales_section",
+   "fieldtype": "Section Break",
+   "label": "VOCAL 1"
+  },
+  {
+   "fieldname": "vocguar",
+   "fieldtype": "Data",
+   "label": "Vocal de Guardian\u00eda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sup1",
+   "fieldtype": "Data",
+   "label": "Suplente ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vocdep",
+   "fieldtype": "Data",
+   "label": "Vocal de Deportes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sup2",
+   "fieldtype": "Data",
+   "label": "Suplente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vocas",
+   "fieldtype": "Data",
+   "label": "Vocal de Asuntos Sociales",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sup3",
+   "fieldtype": "Data",
+   "label": "Suplente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vocal_2_section",
+   "fieldtype": "Section Break",
+   "label": "VOCAL 2"
+  },
+  {
+   "fieldname": "vocal_3_section",
+   "fieldtype": "Section Break",
+   "label": "VOCAL 3"
+  },
+  {
+   "fieldname": "detalle",
+   "fieldtype": "Data",
+   "label": "Detalle",
+   "reqd": 1
+  }
+ ],
+ "modified": "2019-08-28 12:38:29.438114",
+ "modified_by": "Administrator",
+ "module": "Gestionsocios",
+ "name": "DIRECTIVAS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
