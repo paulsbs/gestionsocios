@@ -5,14 +5,16 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "cedula",
-  "nombre",
-  "foto",
-  "uno",
   "local",
+  "giro",
+  "nombre",
+  "cedula",
+  "metraje",
+  "estado",
   "telefono",
   "direccion",
-  "fecna"
+  "fecna",
+  "foto"
  ],
  "fields": [
   {
@@ -27,15 +29,14 @@
    "fieldname": "nombre",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Nombre",
+   "label": "Nombres y Apellidos",
    "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "direccion",
    "fieldtype": "Data",
-   "label": "Direcci\u00f3n",
-   "reqd": 1
+   "label": "Direcci\u00f3n"
   },
   {
    "fieldname": "fecna",
@@ -45,8 +46,7 @@
   {
    "fieldname": "telefono",
    "fieldtype": "Data",
-   "label": "Tel\u00e9fono",
-   "reqd": 1
+   "label": "Tel\u00e9fono"
   },
   {
    "fieldname": "foto",
@@ -55,18 +55,34 @@
    "label": "Foto"
   },
   {
-   "fieldname": "uno",
-   "fieldtype": "Section Break"
+   "fieldname": "local",
+   "fieldtype": "Link",
+   "label": "Local",
+   "options": "LOCAL",
+   "reqd": 1
   },
   {
-   "fieldname": "local",
-   "fieldtype": "Table",
-   "label": "locales",
-   "options": "socio_local"
+   "fieldname": "giro",
+   "fieldtype": "Link",
+   "label": "Giro",
+   "options": "GIROS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "metraje",
+   "fieldtype": "Float",
+   "label": "Metraje",
+   "reqd": 1
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "ADJUDICADO\nLITIJIO"
   }
  ],
  "image_field": "foto",
- "modified": "2019-08-28 12:20:47.670501",
+ "modified": "2019-09-03 15:51:05.741133",
  "modified_by": "Administrator",
  "module": "Gestionsocios",
  "name": "SOCIOS",

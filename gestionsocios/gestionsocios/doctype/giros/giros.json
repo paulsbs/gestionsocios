@@ -1,39 +1,26 @@
 {
- "autoname": "field:numl",
- "creation": "2019-06-28 10:13:22.276473",
+ "autoname": "field:giro",
+ "creation": "2019-09-03 15:44:16.556742",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "numl",
-  "pasaje",
-  "encargado"
+  "giro"
  ],
  "fields": [
   {
-   "fieldname": "numl",
+   "fieldname": "giro",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Numero Local",
+   "label": "Giro",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "encargado",
-   "fieldtype": "Link",
-   "label": "Encargado del Local",
-   "options": "SOCIOS"
-  },
-  {
-   "fieldname": "pasaje",
-   "fieldtype": "Data",
-   "label": "Pasaje del Local"
   }
  ],
- "modified": "2019-09-03 15:53:05.444716",
+ "modified": "2019-09-03 16:11:47.457983",
  "modified_by": "Administrator",
  "module": "Gestionsocios",
- "name": "LOCAL",
+ "name": "GIROS",
  "owner": "Administrator",
  "permissions": [
   {
