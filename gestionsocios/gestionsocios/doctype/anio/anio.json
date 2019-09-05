@@ -1,39 +1,24 @@
 {
- "autoname": "field:numl",
- "creation": "2019-06-28 10:13:22.276473",
+ "autoname": "field:anio",
+ "creation": "2019-09-05 10:46:49.987137",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "numl",
-  "pasaje",
-  "encargado"
+  "anio"
  ],
  "fields": [
   {
-   "fieldname": "numl",
+   "fieldname": "anio",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Numero Local",
-   "reqd": 1,
+   "label": "A\u00f1o",
    "unique": 1
-  },
-  {
-   "fieldname": "encargado",
-   "fieldtype": "Link",
-   "label": "Encargado del Local",
-   "options": "SOCIOS"
-  },
-  {
-   "fieldname": "pasaje",
-   "fieldtype": "Data",
-   "label": "Pasaje del Local"
   }
  ],
- "modified": "2019-09-05 10:55:19.549501",
+ "modified": "2019-09-05 10:46:49.987137",
  "modified_by": "Administrator",
  "module": "Gestionsocios",
- "name": "LOCAL",
+ "name": "anio",
  "owner": "Administrator",
  "permissions": [
   {

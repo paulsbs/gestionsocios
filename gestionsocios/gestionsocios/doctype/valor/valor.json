@@ -1,39 +1,41 @@
 {
- "autoname": "field:numl",
- "creation": "2019-06-28 10:13:22.276473",
+ "autoname": "field:valor",
+ "creation": "2019-09-05 10:43:27.314757",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "numl",
-  "pasaje",
-  "encargado"
+  "valor",
+  "fecin",
+  "desc"
  ],
  "fields": [
   {
-   "fieldname": "numl",
+   "fieldname": "valor",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Numero Local",
+   "label": "Valor",
    "reqd": 1,
    "unique": 1
   },
   {
-   "fieldname": "encargado",
-   "fieldtype": "Link",
-   "label": "Encargado del Local",
-   "options": "SOCIOS"
+   "fieldname": "fecin",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha de Inicio",
+   "reqd": 1
   },
   {
-   "fieldname": "pasaje",
+   "fieldname": "desc",
    "fieldtype": "Data",
-   "label": "Pasaje del Local"
+   "label": "Descripci\u00f3n",
+   "reqd": 1
   }
  ],
- "modified": "2019-09-05 10:55:19.549501",
+ "modified": "2019-09-05 10:53:01.049874",
  "modified_by": "Administrator",
  "module": "Gestionsocios",
- "name": "LOCAL",
+ "name": "valor",
  "owner": "Administrator",
  "permissions": [
   {
