@@ -7,4 +7,5 @@ import frappe
 from frappe.model.document import Document
 
 class PAGOS(Document):
-	pass
+	def generarpago(self ):
+		return "hola"

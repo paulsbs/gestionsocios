@@ -4,5 +4,12 @@
 frappe.ui.form.on('PAGOS', {
 	refresh: function(frm) {
 
+	},
+	
+	onload: function(listview) {
+		listview.page.add_menu_item(__("Generar Cuotas"), function() {
+			 
+		});
 	}
+
 });
