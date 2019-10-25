@@ -1,0 +1,68 @@
+{
+ "autoname": "field:socio",
+ "creation": "2019-10-17 09:41:45.798619",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "socio",
+  "nlocal",
+  "ci",
+  "salto001",
+  "mes_socio"
+ ],
+ "fields": [
+  {
+   "fieldname": "socio",
+   "fieldtype": "Link",
+   "label": "Socio",
+   "options": "SOCIOS",
+   "unique": 1
+  },
+  {
+   "fieldname": "nlocal",
+   "fieldtype": "Data",
+   "label": "# Local",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ci",
+   "fieldtype": "Data",
+   "label": "CI",
+   "read_only": 1
+  },
+  {
+   "fieldname": "salto001",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mes_socio",
+   "fieldtype": "Table",
+   "label": "Coutas",
+   "options": "mes_socio"
+  }
+ ],
+ "modified": "2019-10-17 11:06:09.866106",
+ "modified_by": "Administrator",
+ "module": "Gestionsocios",
+ "name": "Tarjetas Coutas",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

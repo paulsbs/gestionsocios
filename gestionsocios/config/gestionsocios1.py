@@ -49,8 +49,8 @@ def get_data():
 			    {
 				"type": "doctype",
 				"app_icon": "file-alt",
-                "name":"PAGOS",
-				"label":"Pagos"
+                "name":"Tarjetas Coutas",
+				"label":"Tarjetas Coutas"
 				}
 			 ]
             },
