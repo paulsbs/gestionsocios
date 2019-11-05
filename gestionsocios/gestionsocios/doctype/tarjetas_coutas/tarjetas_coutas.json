@@ -9,6 +9,7 @@
   "nlocal",
   "ci",
   "salto001",
+  "btncuotas",
   "mes_socio"
  ],
  "fields": [
@@ -40,9 +41,14 @@
    "fieldtype": "Table",
    "label": "Coutas",
    "options": "mes_socio"
+  },
+  {
+   "fieldname": "btncuotas",
+   "fieldtype": "Button",
+   "label": "Generar Cuotas"
   }
  ],
- "modified": "2019-10-17 11:06:09.866106",
+ "modified": "2019-10-27 10:10:59.031250",
  "modified_by": "Administrator",
  "module": "Gestionsocios",
  "name": "Tarjetas Coutas",
